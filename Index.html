@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Context-Free Grammar" content="A language where we define our own rules">
-    <title>Guessing Emotions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CFG - Wierd Stories Central</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <link rel="stylesheet" href="Style.css"/>
 
-    <script src="tracery-master/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="tracery-master/tracery.js"></script>
-    <script src="tracery-master/js/grammars.js"></script>
-    <script src='app.js'></script>
 </head>
-<body>
-    <h1 id="h1">Weird Sentences</h1>
-        <button id="generate" onclick="generate()">Give me a Sentence!</button>
-        <div id="sentences">
 
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark" style="background: rgb(7,14,4);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: var(--bs-green);font-family: Akronim, serif;">&nbsp;🤣</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav"></ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container text-center pt-5">
+            <h1 style="font-family: Montserrat, serif;color: rgb(0,0,0);text-align: center;">Wierd St🤣ries Central</h1>
+            <div class="mt-5" style="max-width: 460px;margin: 0px auto;">
+                <div class="card" style="border-radius: 25px;">
+                    <div class="card-body px-lg-5" style="border-color: rgb(109,83,6);">
+                        <p class="fs-3 text-start lead mb-4" style="font-family: Aclonica, sans-serif;color: rgb(11,21,7);" id="sentences">
+                        </p>
+                        <button class="card-link btn btn-outline-success" href="#" id="generate" onclick="generate()">👍</button>
+                            <button class="card-link btn btn-outline-secondary" href="#" onclick="generate()">👎</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    <footer>
-        <h2>GROUP MEMBERS</h2>
-            <p>
-                <ol>
-                    <li> Emmanuel kupuzo Olisaemelie Godfrey 2021529355</li>
-                    <li>Gain Nambeye 2020065746</li>
-                    <li>Gabriel Chilatu Sinkala 2020070308</li>
-                    <li>Mwiza Chiwale 2020010470</li>
-                    <li>Thando Tembo 2020070693</li>
-                    <li>Tabakamulamu Sebitwane 2020065258</li>
-                </ol>
-            </p>
-    </footer>
+    </main>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/tracery.js"></script>
+    <script src="js/grammer.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
